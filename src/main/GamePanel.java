@@ -54,7 +54,7 @@ public class GamePanel extends JPanel implements Runnable{
 		paddle2.draw(g);
 		ball.draw(g);
 		score.draw(g);
-Toolkit.getDefaultToolkit().sync(); // I forgot to add this line of code in the video, it helps with the animation
+Toolkit.getDefaultToolkit().sync(); //It helps with the animation
 
 	}
 	public void move() {
